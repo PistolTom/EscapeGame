@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Escape Game SNT</title>
+    <link href="styles/salle2.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <meta charset="UTF-8" />
+</head>
+<body>
+    <!--Image de fond-->
+    <img src="assets/old_room.jpg" id="background" />
+    <div id="cover"></div>
+    <!--elements-->
+    <img id="switch" src="assets/interrupteur.png" />
+    <img id="feuille" class="hint" src="assets/paper.jpg" />
+    <div id="painting" class="hint"></div>
+    <img id="parchemin" class="hint" src="assets/feuille_parchemin.jpg" />
+    <div id="trappe" class="hint"></div>
+    <img id="papier" class="hint" src="assets/coordonnees_gps.jpg" />
+    <!--Fenetre modale-->
+    <div id="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div id="modal-content">
+        </div>
+    </div>
+    <script src="js/salle2.js"></script>
+</body>
+</html>
